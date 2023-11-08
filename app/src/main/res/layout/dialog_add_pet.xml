@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/edt_pet_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pet Name"/>
+
+    <EditText
+        android:id="@+id/edt_pet_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pet type"/>
+
+    <EditText
+        android:id="@+id/edt_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Pet Age"/>
+
+    <CheckBox
+        android:id="@+id/cb_has_owner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Has owner?"/>
+
+    <EditText
+        android:id="@+id/edt_owner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Owner name"
+        android:enabled="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_add"
+        android:text="Add pet"/>
+
+</LinearLayout>
